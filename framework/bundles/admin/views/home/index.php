@@ -1,0 +1,1 @@
+<?php echo render('admin::template.main');?>

@@ -1,0 +1,113 @@
+/* ######### Shared basic style for mega drop down menu DIV ######### */
+
+.mega{
+width:700px; /*default width of mega menu*/
+padding:10px;
+color:white;
+position:absolute;
+visibility:hidden;
+border:2px solid black;
+border-top-width:1px;
+-webkit-box-shadow: 5px 5px 5px #c8c8c8; /*css 3 shadows*/
+-moz-box-shadow: 5px 5px 5px #c8c8c8;
+box-shadow: 5px 5px 5px #c8c8c8;
+}
+
+.mega .column{ /*each link column within a mega menu*/
+float:left;
+width:25%;
+
+}
+
+.mega a{
+text-decoration:none;
+}
+
+.mega a[rel]:after{ /*add "down.png" to anchor links, or those with a rel attribute */
+content:" " url(down.png);
+}
+
+.mega .column ul{
+margin:0;
+margin-left:5px;
+padding:0;
+list-style:none;
+}
+
+.mega .column ul li{
+margin-bottom:3px;
+color:white;
+
+}
+
+.mega .ulmenu{ /*style any UL within mega menu with class="ulmenu"*/
+margin:0;
+padding:0;
+border:1px solid gray;
+border-bottom-width:0;
+list-style:none;
+}
+
+.mega .ulmenu a{
+display:block;
+border-bottom:1px solid white;
+padding:5px;
+}
+
+.mega .ulmenu a:hover{
+background:lightyellow;
+}
+
+/* ######### Style for Solid Block Mega Menu ######### */
+
+.solidblocktheme{ /*additional mega drop down menu style for this theme*/
+padding:0; /*remove default padding inside mega menu*/
+background: #000;
+}
+
+.solidblocktheme p, .solidblocktheme .column,{
+padding:5px; /*add padding inside p and .column elements within mega menu*/
+width:auto;
+}
+.solidblocktheme .column li a{color:white;}
+
+
+	.solidblocktheme .column h5 a  {
+ 
+color:#009;
+font: bold 13px Arial;
+}
+
+
+.solidblockmenu{
+margin: 0;
+padding: 0;
+float: left;
+font: bold 13px Arial;
+width: 100%;
+overflow: hidden;
+margin-bottom: 1em;
+border: 1px solid black;
+border-width: 1px 0;
+}
+
+.solidblockmenu li{
+display: inline;
+color:white;
+}
+
+.solidblockmenu li a{
+float: left;
+color: white;
+padding: 9px 11px;
+text-decoration: none;
+}
+
+.solidblockmenu li a:visited{
+color: white;
+}
+
+/*.solidblockmenu li a:hover, .solidblockmenu li a.selected{ /*Selected Tab style*/
+/*color: white;
+background: transparent url(blockactive.gif) center center repeat-x;
+}*/
