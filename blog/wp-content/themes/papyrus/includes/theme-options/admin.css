@@ -1,0 +1,30 @@
+
+
+
+
+
+code {font-family:"Courier New",Courier}
+#wdlcontainer { width:457px; margin:20px 0 20px 50px;}
+#options {width:457px; margin:20px auto; color:#9ac1c9}
+#options a {text-decoration:none; color:#9ac1c9}
+#options a:hover {color:#ffffff}
+#expcol { width:100px; float:left; background:#000;}
+#wdllogo { width:100%; float:left; background:#3C2A18; }
+#wdllogo a img{ padding:15px; }
+.wdlclear { clear:both; }
+
+#acc {width:457px; list-style:none; color:#000; margin:0 auto 40px; float:left;}
+#acc h3 {width:443px; border:1px solid #3C2A18; padding:6px 6px 8px; font-weight:bold; margin-top:5px; color:#ffffff; cursor:pointer; background:url(images/header.png)}
+#acc h3:hover {background:url(images/header_over.png)}
+#acc .acc-section {overflow:hidden; background:#fff; margin-top:-15px;}
+#acc .acc-content {width:425px; padding:15px; border:1px solid #3C2A18; border-top:none; background:#fff}
+
+#nested {width:425px; list-style:none; color:#ffffff; margin-bottom:15px}
+#nested h3 {width:411px; border:1px solid #3C2A18; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.png)}
+#nested h3:hover {background:url(images/header_over.png)}
+#nested .acc-section {overflow:hidden; background:#3C2A18}
+#nested .acc-content {width:393px; padding:15px; border:1px solid #3C2A18; border-top:none; background:#3C2A18}
+#nested .acc-selected {background:url(images/header_over.png)}
+
+.newtextarea { margin:10px 0 10px 30px; }
+.newtextareatwo { border:1px solid #E3E7DF; margin:5px 0 5px 30px; padding:15px; }
