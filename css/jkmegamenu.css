@@ -1,0 +1,52 @@
+.megamenu{
+position: absolute;
+display: none;
+left: 0;
+top: 0;
+background: url(../images/black-style/menu_background.png);
+padding: 10px;
+font: normal 12px Verdana;
+color:white;
+z-index: 100;
+
+}
+
+.megamenu .column{
+float: left;
+width: 180px; /*width of each menu column*/
+margin-right: 5px;
+}
+
+.megamenu .column ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+.megamenu .column ul li{
+padding-bottom: 5px;
+color:white;
+
+}
+
+.megamenu .column h3{
+color:#FFF;
+font: bold 13px Arial;
+margin: 0 0 5px 0;
+}
+.megamenu .column h3 a{
+ background:#333;
+color:#FFF;
+font: bold 13px Arial;
+margin: 0 0 5px 0;
+}
+
+.megamenu .column ul li a{
+text-decoration: none;
+color:white;
+
+}
+
+.megamenu .column ul li a:hover{
+
+}

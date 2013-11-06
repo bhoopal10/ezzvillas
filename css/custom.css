@@ -1,0 +1,131 @@
+/*Custom Style*/
+
+/*Custom Mega Menu*/
+.megamenu h3 a{font-size: 16px !important;padding: 3px 3px 3px 3px}
+
+.megamenu ul li a:hover{color: #045e9f !important;}
+
+.zblack{color:white !important;}
+
+.box-title{background-color: #06C;padding-left: 5px}
+/*BUTTONS*/
+.my-button{
+    background: url("../img/book_now.gif") no-repeat;
+    width:130px;
+    height: 70px;
+}
+
+/*FORMS*/
+.contact-form-table
+{
+    border: none;
+    font-size: 12px;
+}
+
+.contact-form-table tr{border: none}
+
+.contact-form-table tr td{border: none}
+/*Widgets*/
+
+h5.bigger {
+    font-size: 16px;
+    color:#ffffff !important;
+}
+.lighter {
+    font-weight: lighter;
+}
+
+.widget-header{
+    position:relative;
+    min-height:38px;
+    background:#f7f7f7;
+    background-color:#f8f8f8;
+    background-image:-moz-linear-gradient(top,#fff,#eee);
+    background-image:-webkit-gradient(linear,0 0,0 100%,from(#fff),to(#eee));
+    background-image:-webkit-linear-gradient(top,#fff,#eee);
+    background-image:-o-linear-gradient(top,#fff,#eee);
+    background-image:linear-gradient(to bottom,#fff,#eee);
+    background-repeat:repeat-x;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffeeeeee',GradientType=0);
+    color:#ffffff;
+    border:1px solid #CCC;
+    border-bottom:1px solid #DDD;
+    padding-left:12px;
+    text-align:left;
+}
+.widget-box {
+    padding: 0px;
+    box-shadow: none;
+    margin: 3px 0px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+.widget-box .transparent {
+    border: 0px none;
+    box-shadow: none;
+}
+.header-color-blue {
+    background: none repeat scroll 0% 0% rgb(48, 126, 204);
+    border-color: rgb(48, 126, 204);
+}
+
+.widget-main.no-padding {
+    padding: 0px;
+}
+.widget-main {
+    padding: 12px;
+}
+.header-color-blue + .widget-body {
+    border-color: rgb(48, 126, 204);
+}
+.widget-body {
+    border-right: 1px solid rgb(204, 204, 204);
+    border-width: 0px 1px 1px;
+    border-style: none solid solid;
+    border-color: -moz-use-text-color rgb(204, 204, 204) rgb(204, 204, 204);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    background-color: rgb(255, 255, 255);
+}
+.header-color-blue + .widget-body {
+    border-color: rgb(48, 126, 204);
+}
+.widget-body {
+    border-right: 1px solid rgb(204, 204, 204);
+    border-width: 0px 1px 1px;
+    border-style: none solid solid;
+    border-color: -moz-use-text-color rgb(204, 204, 204) rgb(204, 204, 204);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.widget-toolbar {
+    display: inline-block;
+    padding: 0px 10px;
+    line-height: 37px;
+    position: relative;
+    text-align: left;
+}
+
+.widget-toolbar > .nav-tabs {
+    border-bottom: 0px none;
+    margin-bottom: 0px;
+    position: relative;
+    top: 5px;
+}
+
+
+.widget-main .tab-content {
+    border: 0px none;
+}
+.villaheading{
+	font:Arial, Helvetica, sans-serif;
+	color:#FF8000;
+}
+
